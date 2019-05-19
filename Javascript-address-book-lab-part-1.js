@@ -76,6 +76,10 @@ function loop(addressBookName) {
             case "Quit":
             case "quit":
                 end = true;
+                break;
+            default:
+                console.log(action + " command not supported.")
+
         }
     }
 }
